@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "148babbb6ffd677d7d01b355aa98bf5f"
+name = "simolearn1"
+handle = "simolearn1"
+application_url = "https://holes-liberia-yahoo-remain.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "appsimo1.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://holes-liberia-yahoo-remain.trycloudflare.com/auth/callback",
+  "https://holes-liberia-yahoo-remain.trycloudflare.com/auth/shopify/callback",
+  "https://holes-liberia-yahoo-remain.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
