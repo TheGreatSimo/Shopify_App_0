@@ -3,7 +3,7 @@
 client_id = "148babbb6ffd677d7d01b355aa98bf5f"
 name = "simolearn1"
 handle = "simolearn1"
-application_url = "https://holes-liberia-yahoo-remain.trycloudflare.com"
+application_url = "https://upset-justify-points-hampshire.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://holes-liberia-yahoo-remain.trycloudflare.com/auth/callback",
-  "https://holes-liberia-yahoo-remain.trycloudflare.com/auth/shopify/callback",
-  "https://holes-liberia-yahoo-remain.trycloudflare.com/api/auth/callback"
+  "https://upset-justify-points-hampshire.trycloudflare.com/auth/callback",
+  "https://upset-justify-points-hampshire.trycloudflare.com/auth/shopify/callback",
+  "https://upset-justify-points-hampshire.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
